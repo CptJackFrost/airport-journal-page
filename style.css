@@ -1,0 +1,160 @@
+body {
+    background-color: rgb(228, 228, 228);
+    width: auto;
+}
+
+header {
+    width: auto;
+    display: flex;
+    margin-bottom: 0;
+    background-color: white;
+    box-shadow: 0px 10px 8px -8px rgba(50, 50, 50, 0.50);
+    padding: 0 50px;
+    position: relative;
+    z-index: 1;
+}
+
+.airport_name {
+    display: flex;
+    flex-direction: column;
+}
+
+.airport_name .icon{
+    font: bold 23px Trebuchet MS;
+    color:rgb(180, 180, 180);
+    margin-bottom: 5px;
+}
+
+.airport_name .name {
+    font: normal 21px sans-serif;
+}
+
+.airport_name svg {
+    width: 20px;
+    height: 20px;
+}
+
+.airport_name g {
+    transform-origin: center center;
+    transform: rotate(45deg);
+}
+
+.account {
+    margin-left: auto;
+    margin-right: 0;
+    display: flex;
+    font: normal 21px sans-serif;
+    align-items: center;
+}
+
+.account_logout {
+    margin-left: 30px;
+}
+
+.account svg {
+    width: 40px;
+    height: 40px;
+}
+
+.wrapper {
+    background-color: rgb(240, 240, 240);
+    margin: 0;
+    width: 100%;
+    display: flex;
+    padding: 0;
+}
+
+.navbar {
+    margin-top: 0;
+    padding-top: 0;
+    padding-left: 0;
+    list-style: none;
+    background-color:rgb(222, 222, 222);
+}
+
+.navbar_item {
+    margin-top: 0;
+    margin-bottom: 10px;
+    background-color: rgb(207, 207, 207);
+    height: 120px;
+    width: 200px;
+    display: flex;
+}
+
+.navbar_item .icon {
+    margin: auto;
+    height: 50px;
+    width: 50px;
+}
+
+.navbar_item.active {
+    background-color: rgb(150, 150, 150);
+}
+
+.navbar_item:hover:not(.active) {
+    background-color: rgb(180, 180, 180);
+}
+
+.content {
+    width: 100%;
+}
+
+.content_header {
+    display: flex;
+    width: auto;
+    margin-right: 0;
+    padding: 20px 50px 11px 85px;
+}
+
+.content_header h2 {
+    font: normal 35px Trebuchet MS;
+}
+
+.content_header .date {
+    margin: auto 0 auto auto;
+    font: normal 25px Trebuchet MS;
+    color:rgb(180, 180, 180);
+}
+
+.content_tabs {
+    display: flex;
+    margin-left: 60px;
+}
+
+.content_tabs .tab {
+    background-color: rgb(222, 222, 222);
+    text-decoration: none;
+    font: normal 16px Trebuchet MS;
+    padding: 10px 35px;
+    color: black;
+}
+
+.content_tabs .tab:hover {
+    background-color: rgb(190, 190, 190);
+}
+
+.content_tabs .tab.active {
+    background-color: rgb(150, 150, 150);
+    color: white;
+}
+
+.content_journal {
+    display: flex;
+    margin-top: 40px;
+}
+
+.content_journal table td:first-child {
+    font: normal 23px Trebuchet MS;
+    padding-left: 85px;
+    padding-right: 80px;
+}
+
+.content_journal table td:last-child {
+    font: normal 16px Trebuchet MS;
+    padding-left: 85px;
+    padding-right: 80px;
+}
+
+.content_journal table:last-child {
+    margin-left: 100px;
+}
