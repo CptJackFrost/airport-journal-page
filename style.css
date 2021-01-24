@@ -145,14 +145,12 @@ header {
 
 .content_journal table td:first-child {
     font: normal 23px Trebuchet MS;
-    padding-left: 85px;
-    padding-right: 80px;
+    padding: 10px 80px 10px 85px
 }
 
 .content_journal table td:last-child {
     font: normal 16px Trebuchet MS;
-    padding-left: 85px;
-    padding-right: 80px;
+    padding: 10px 80px 10px 85px
 }
 
 .content_journal table:last-child {
